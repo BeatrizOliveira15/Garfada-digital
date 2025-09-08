@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-image: url("../img/ef3c8175242b7cb1368be14fe7d619a1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reserva{
+display: flex;
+flex-direction: column;
+background-color: #1b6b2f76;
+border-radius: 5px;
+padding: 15px;
+}
+
+.campo{
+    background-color: #67b58883;
+    padding: 20px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 7px;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4px;
+    margin-left: 80px;
+    font-family: "Merriweather", serif;
+    background-color: #7f170d;
+    color: #fffcf7;
+    border: 0px;
+    font-size: 16px;
+}
+
+button:hover {
+background: #fffcf7;
+color: #7f170d;
+}
+
+h1{
+font-family: "Lobster", sans-serif;
+  font-weight: 400;
+text-align: center;
+font-size: xx-large;
+color: #66140c;
+}
+
+label{
+    font-family: "Merriweather", serif;
+    color: #66140c;
+}
+
+input{
+    font-family: "Merriweather", serif;
+    border-radius: 3px;
+    border: 0px;
+    background-color:#c4fac583 ;
+}
+
+select{
+background-color: #c4fac583;
+}
