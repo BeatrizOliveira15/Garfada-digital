@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="../assets/css/marcela.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <main>
+
+        <div class="reserva divisona animate__animated animate__bounceInLeft">
+            <form class="form" action="../index.html">
+
+                <div class="campo">
+                    <h1> Faça sua reserva</h1>
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required><br>
+                    <br>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" id="email" placeholder="Digite seu email" required><br>
+                    <br>
+                    <label for="telefone"><strong>Telefone:</strong></label>
+                    <input type="tel" id="telefone" placeholder="Digite seu telefone" required><br>
+                    <br>
+                    <label for="cpf"><strong>CPF:</strong></label>
+                    <input type="text" id="cpf" placeholder="Digite seu CPF" required><br>
+                    <br>
+                    <label for="quant"><strong>Mesa para quantas pessoas?</strong></label><br>
+                    <select id="quant" required>
+                        <option value="Selecione"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4 ou mais">4 ou mais</option>
+                    </select><br>
+                    <br>
+                    <label for="data"><strong>Data da reserva</strong></label><br>
+                    <input type="date" id="data" required><br>
+                    <br>
+                    <label for="hora"><strong>Horário da reserva</strong></label><br>
+                    <input type="time" id="hora" required> <br>
+                    <br>
+                    <label><strong>É uma reserva para aniversário?</strong></label><br>
+                    <br>
+                    <label><input type="radio" name="novidades"><strong>Sim</strong></label><br>
+                    <br>
+                    <label><input type="radio" name="novidades"><strong>Não</strong></label>
+
+                </div>
+                <br>
+                <button type="submit"><strong>Reservar</strong></button>
+            </form>
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

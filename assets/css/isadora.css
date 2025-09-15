@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1de;
+    color: #141325;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+.header {
+    color: #65a675;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 70px;
+
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+
+
+.section {
+    font-family: "Merriweather", serif;
+    font-size: x-small;
+    line-height: 1.6;
+    background-color: #e72313;
+    color: #141325;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(48, 0, 0);
+    text-align: justify;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (max-widht:767px) {
+    .divisona width: 100%;
+    height: 150px;
+}

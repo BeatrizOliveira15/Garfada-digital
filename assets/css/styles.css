@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+:root{
+     
+    --teste:#65a675;
+}
+
+.header {
+    font-family: "Imperial Script", cursive;
+    font-size: 70px;
+    background-color: #f4f1de;
+    color: #65a675;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 6px #62431b99;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--teste);
+    margin: 0;
+    padding: 0 20px;
+}
+
+.ola {
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 50px;
+    background-color: #f4f1de;
+    color: #65a675;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 6px #62431b99;
+}
+
+/*RODAPÉ*/
+
+* {
+    margin: 1.3%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header2 {
+    color: #65a675;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Kings", cursive;
+    font-size: 70px;
+
+
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+.section {
+    padding: 20px;
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    line-height: 1.6;
+    background-color: #e72313;
+    color: #141325;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(48, 0, 0);
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-size: 30px;
+
+    h2 {
+        font-family: "Italiana", serif;
+        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.imagem img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    border-radius: 100%;
+    margin-left: 25%;
+
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 #141325;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: #141325;
+    background-color: #eb4233;
+    transition: 5ms.6s;
+}
+
+a button {
+    transition-duration: 0.4s;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: 0px
+}
+
+a button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.footer {
+
+    background-color: #e4ffe0;
+    height: 100%;
+    width: 100%;
+    padding-top: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: #151514 solid 3px;
+
+    h1 {
+        font-family: "Qwitcher Grypen", cursive;
+        font-size: 3rem;
+        color: #151514;
+    }
+
+    p {
+
+        color: rgb(0, 0, 0);
+    }
+
+    .contato {
+        background-color: #67b58883;
+        padding-left: 2rem;
+        margin-top: 1rem;
+        border-bottom: #1f1f1e solid 3px;
+        border-top: #1f1f1e solid 3px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+.icons {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+.names {
+    display: flex;
+    flex-direction:row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.midia {
+    padding-left: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (max-widht:767px) {
+    .tudo {
+        width: 100%;
+        height: 150px;
+        
+    }
+    .names {
+        font-size: 20%;
+        margin-left: 2%;
+      
+        display: flex;
+    }
+}
